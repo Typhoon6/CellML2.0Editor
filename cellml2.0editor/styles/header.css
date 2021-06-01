@@ -1,0 +1,19 @@
+
+#cellmlHeader {
+    color:rgb(220,220,220);
+    height: 50px;
+    background-color: rgb(33,33,33);
+    font-weight: 600;
+    font-size: 28px;
+    padding-left: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+#cellmlLogo {
+    height: 90%;
+    float: none;
+    padding-left: 10px;
+}

@@ -5,9 +5,17 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel = "stylesheet" href = "./bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel = "stylesheet" href = "styles/header.css"/>
     <title>Hello World!</title>
   </head>
   <body>
+
+    <div id="cellmlHeader">
+      CellML2.0 Editor
+      <img id="cellmlLogo" src="./images/cellmlnightmode_transparent.png" alt="CellMLLogo">
+    </div>
+
     <h1>Hello World!</h1>
     We are using Node.js <span id="node-version"></span>,
     Chromium <span id="chrome-version"></span>,
